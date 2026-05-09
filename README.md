@@ -559,6 +559,86 @@ An unordered list is used to display items without any specific order. Items are
 
 syntax:
 
+```bash
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+
+```
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>List in HTML</title>
+</head>
+<body>
+    <!--Unordered list-->
+    <h3>Morning Routine</h3>
+    <ul>
+      <li>Wake up</li>
+      <li>Brush teeth</li>
+      <li>Go to college</li>
+    </ul>
+</body>
+</html>
+
+```
+
+<b>3. Definition list </b>
+<br>
+A definition list in HTML is used to display a list of terms along with their descriptions. It is useful for creating glossaries, dictionaries, or question-answer type content. This list is created using the dl tag, where each term is defined using dt and its description is given using dd.
+
+Syntax:
+
+```
+<dl>
+  <dt>Term</dt>
+  <dd>Description</dd>
+</dl>
+
+```
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language used to create web pages.</dd>
+
+  <dt>CSS</dt>
+  <dd>Used to style and design web pages.</dd>
+
+  <dt>JavaScript</dt>
+  <dd>Used to add interactivity to web pages.</dd>
+</dl>
+
+</body>
+</html>
+
+```
+
+output:
+
+```bash
+HTML
+   HyperText Markup Language used to create web pages.
+CSS
+   Used to style and design web pages.
+JavaScript
+   Used to add interactivity to web pages.
+
+```
+
+
+
 
 
 
