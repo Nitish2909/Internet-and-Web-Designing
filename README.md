@@ -190,9 +190,166 @@ Displaying a web page means opening and viewing an HTML file using a web browser
 
 3. open the file in browser :
 
-Right-click on file
+  Right-click on file
+  <br>
+  Select Open with -> Browser.
+
+
+# Paragraph 
+A paragraph in HTML is a block of text used to display content in a structured and readable format. It is created using the <p> tag.
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+</body>
+</html>
+
+```
+
+# <br> Tag 
+The <br> (Break) tag is used in HTML to insert a line break, meaning the content after it moves to the next line without starting a new paragraph.It is an empty (self-closing) tagBasically it used for start a new line.
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Hello<br>World</p>
+
+</body>
+</html>
+
+```
+
+# Insert Blank Spaces in HTML :
+The Problem in HTML is In HTML, multiple spaces are not displayed by default.No matter how many spaces you write, the browser shows only one space.
 <br>
-Select Open with -> Browser.
+So, if you want to insert multiple blank space you can use &nbsp; (non-breaking space). it insert extra blank spaces in HTML.
+
+Example :
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Hello&nbsp;&nbsp;&nbsp;World</p>
+
+</body>
+</html>
+
+```
+# Headings in HTML 
+Headings in HTML are used to define titles and subtitles on a web page. They help organize content and make it easy to read.
+
+HTML provides six levels of headings, from <h1> to <h6>.
+
+<b>Syntax:</b>
+
+```bash
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+<h3>Smaller Heading</h3>
+<h4>...</h4>
+<h5>...</h5>
+<h6>Smallest Heading</h6>
+
+```
+<b>Example:</b>
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heading</title>
+</head>
+<body>
+
+<h1>This is Heading 1</h1>
+<h2>This is Heading 2</h2>
+<h3>This is Heading 3</h3>
+<h4>This is Heading 4</h4>
+<h5>This is Heading 5</h5>
+<h6>This is Heading 6</h6>
+
+</body>
+</html>
+
+```
+
+# Preformatted Text in HTML :
+Preformatted text in HTML is text that is displayed exactly as written in the code, including spaces, tabs, and line breaks. It is created using the <pre> tag.
+
+Syntax:
+
+```bash
+<pre>
+   Your text here
+</pre>
+
+```
+
+Example;
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<pre>
+Name:   Nitish Kumar
+City:   Panipat
+Course: BCA
+</pre>
+
+</body>
+</html>
+
+```
+
+# Comments in HTML:
+A comment in HTML is a piece of code that is not displayed in the web browser but is used by developers to add notes, explanations, or reminders within the HTML document. Comments help improve code readability and make it easier to understand the structure and purpose of the code. They are especially useful during development and debugging, as they allow programmers to temporarily disable parts of code without deleting them.
+
+syntax:
+
+```bash
+<!-- single line comment -->
+
+<!-- Multi line 
+ comment-->
+
+ ```
+
+ Example:
+
+ ```bash
+ <!DOCTYPE html>
+<html>
+<body>
+
+<!-- This is a heading -->
+<h1>Welcome to My Website</h1>
+
+<!-- This is a paragraph -->
+<p>This is my first web page.</p>
+
+<!-- Commenting multiple lines
+     helps explain the code -->
+
+</body>
+</html>
+
+```
+
 
 
 
