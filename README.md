@@ -399,6 +399,167 @@ AT&T Company
 
 ```
 
+# Text Formatting in HTML
+Text formatting in HTML refers to the use of different tags to change the appearance and importance of text. It helps make content more readable, attractive, and meaningful. Formatting tags can make text bold, italic, underlined, highlighted, or displayed as superscript and subscript.
+
+<b>Common Formatting Tags</b>
+
+```bash
+| Tag        | Function        |
+| ---------- | --------------- |
+|  <b>       | Bold text       |
+|  <strong>  | Important text  |
+|  <i>       | Italic text     |
+|  <em>      | Emphasized text |
+|  <u>       | Underlined text |
+|  <mark>    | Highlight text  |
+|  <small>   | Smaller text    |
+|  <del>     | Deleted text    |
+|  <ins>     | Inserted text   |
+|  <sub      | Subscript       |
+|  <sup>     | Superscript     |
+
+```
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><b>Bold Text</b></p>
+<p><i>Italic Text</i></p>
+<p><u>Underlined Text</u></p>
+<p><strong>Important Text</strong></p>
+<p><em>Emphasized Text</em></p>
+<p>H<sub>2</sub>O</p>
+<p>10<sup>2</sup> = 100</p>
+
+</body>
+</html>
+
+```
+output:
+
+```bash
+Bold Text
+Italic Text
+Underlined Text
+Important Text
+Emphasized Text
+H₂O
+10² = 100
+
+```
+
+# Emphasize Text
+The emphasize tag in HTML is used to emphasize text, making it stand out in a sentence. It usually displays text in italic form and indicates importance or stress on certain words. It also improves accessibility because screen readers give special emphasis while reading.
+
+syntax:
+
+```bash
+<em>Text</em>
+
+```
+
+Example:
+
+```bash
+<p>This is <em>important</em> text.</p>
+
+```
+
+# Superscript and Subscript:
+Superscript and subscript tags are used to display text above or below the normal line. sup is used for superscript (above line), while sub is used for subscript (below line). These are commonly used in mathematical formulas, chemical equations, and scientific expressions.
+
+syntax:
+
+```bash
+<sup>text</sup>
+<sub>text</sub>
+
+```
+
+Example:
+
+```bash
+<p>H<sub>2</sub>O</p>
+<p>10<sup>2</sup> = 100</p>
+
+
+<!--output-->
+
+H₂O
+10² = 100
+
+```
+
+# Font Style and Size
+Font style and size in HTML control the appearance of text, including its typeface, size, and look. Earlier, the font tag was used, but now CSS is preferred. It helps improve readability and design of web pages by customizing how text appears.
+
+Syntax (Using CSS)
+
+```bash
+<p style="font-family: Arial; font-size: 20px;">Text</p>
+
+```
+
+Example:
+
+```bash
+<p style="font-family: Arial; font-size: 24px;">Styled Text</p>
+
+```
+
+# List in HTML 
+A list in HTML is used to organize information in a structured and readable format. It groups related items together, making content easier to understand. HTML provides different types of lists such as ordered, unordered, and description lists, each used for different purposes in web pages.
+
+<b>Types of List in HTML</b>
+
+<b>1. Ordered list :</b>
+<br>
+An ordered list is a type of list where items are displayed in a numbered sequence or order. It is used when the order of items is important, such as steps in a process or instructions.
+
+Syntax:
+
+```bash
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ol>
+
+```
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>List in HTML</title>
+</head>
+<body>
+    <!--Ordered list-->
+    <h3>Fruites</h3>
+    <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>PineApple</li>
+    </ol>
+</body>
+</html>
+
+
+```
+
+<b>2. Unordered List</b>
+<br>
+An unordered list is used to display items without any specific order. Items are usually marked with bullets. It is useful when the sequence of items does not matter.
+
+syntax:
+
+
 
 
 
