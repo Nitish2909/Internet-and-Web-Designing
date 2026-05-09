@@ -63,3 +63,136 @@ Explanation of this code:
 7. Lightweight -> HTML files are small in size and load quickly.
 
 ```
+
+# web page basics :
+
+A web page is a document available on the internet that is written using HTML (HyperText Markup Language) and viewed through a web browser. It can contain text, images, videos, links, and other multimedia elements.
+<br>
+In simple words we can say that A web page is a single page of a website that contains information such as text, images, links, videos, forms etc.
+
+<b>Basic Components of a Web Page :</b>
+
+```bash
+
+1. HTML 
+
+2. CSS 
+
+3. JavaScript
+
+```
+
+<b>There are two types of web pages</b>
+
+<b>1. Static Web Page :</b>
+<br>
+A static web page is a web page whose content remains fixed and unchanged for every user. It is created using HTML and CSS only.
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Welcome</h1>
+    <p>This is a static web page.</p>
+</body>
+</html>
+
+```
+
+<b>2. Dynamic web Page</b>
+<br>
+A dynamic web page is a web page whose content changes automatically based on user input, time, or database.Technologies Used like HTML, CSS, JavaScript, Backend languages (PHP, Python, Node.js), Database (MySQL, MongoDB).
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="demo"></h1>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello User!";
+</script>
+
+</body>
+</html>
+
+```
+
+#  set up a web page 
+Setting up a web page means creating, saving, and preparing an HTML document so it can be viewed in a web browser. It is the first step in web development.For Setting up a web page it require Text Editors(like VS Code, NotePad), a web browse(Like Chrome, Edge) and Basic knowledge of HTML.
+
+<b>Here are the steps to set up an web page</b>
+
+1. Open a Text Editor  -> Open any editor like Notepad or VS Code. This is where you will write HTML code.
+
+2. Make a file using .html extension in your text editor like filename index.html.
+
+3. Write HTML Code 
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is my first web page.</p>
+</body>
+</html>
+
+```
+
+4. Save the file
+
+5. Add styling if you want like this:
+
+```bash
+<style>
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+</style>
+
+```
+
+6. You can run this code by double click on file and click on open with and the tap on browser.It runs and web page show on a web browser.
+
+
+# Display a web page in a web browser :
+Displaying a web page means opening and viewing an HTML file using a web browser. A browser reads the HTML code and converts it into a visible format (text, images, layout) for the user.
+
+<b>Here are the steps to display a web page in a web browser </b>
+
+1. Create an HTML File -> Write HTML code and save it with .html extension.
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>This is my web page.</p>
+</body>
+</html>
+
+```
+
+2. Save the File.
+
+3. open the file in browser :
+
+Right-click on file
+<br>
+Select Open with -> Browser.
+
+
+
