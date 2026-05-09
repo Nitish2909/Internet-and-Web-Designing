@@ -350,6 +350,55 @@ syntax:
 
 ```
 
+# Special Characters in HTML: 
+Special characters in HTML are symbols that either have a predefined meaning in HTML (like <, >) or cannot be typed directly using a keyboard. To display these characters correctly on a web page, we use character entities. These entities ensure proper rendering and prevent conflicts with HTML tags.
+
+<b>Common Special Characters</b>
+
+```bash
+| Character | Entity Name | Entity Number |
+| --------- | ----------- | ------------- |
+| <         | `&lt;`      | `&#60;`       |
+| >         | `&gt;`      | `&#62;`       |
+| &         | `&amp;`     | `&#38;`       |
+| Space     | `&nbsp;`    | `&#160;`      |
+| "         | `&quot;`    | `&#34;`       |
+| ©         | `&copy;`    | `&#169;`      |
+
+```
+
+Syntax:
+
+```bash
+&entity_name;
+or
+&#entity_number;
+
+```
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>5 &lt; 10</p>
+<p>AT&amp;T Company</p>
+<p>&copy; 2026 My Website</p>
+
+</body>
+</html>
+
+
+<!--OutPut-->
+
+5 < 10
+AT&T Company
+© 2026 My Website
+
+```
+
 
 
 
