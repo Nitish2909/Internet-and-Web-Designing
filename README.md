@@ -358,12 +358,12 @@ Special characters in HTML are symbols that either have a predefined meaning in 
 ```bash
 | Character | Entity Name | Entity Number |
 | --------- | ----------- | ------------- |
-| <         | `&lt;`      | `&#60;`       |
-| >         | `&gt;`      | `&#62;`       |
-| &         | `&amp;`     | `&#38;`       |
-| Space     | `&nbsp;`    | `&#160;`      |
-| "         | `&quot;`    | `&#34;`       |
-| ©         | `&copy;`    | `&#169;`      |
+| <         |  &lt;       |  &#60;        |
+| >         |  &gt;       |  &#62;        |
+| &         |  &amp;      |  &#38;        |
+| Space     |  &nbsp;     |  &#160;       |
+| "         |  &quot;     |  &#34;        |
+| ©         |  &copy;     |  &#169;       |
 
 ```
 
