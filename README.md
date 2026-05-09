@@ -26,21 +26,23 @@ Markup Language -> Uses tags to define the structure of content.
 
 ```
 Explanation of this code:
-<br>
+
+```bash
 <!DOCTYPE html> ->  Declares HTML5 document type
-<br>
+
 <html> ->  Root element of the webpage
-<br>
+
 <head> ->  Contains metadata (title, styles, scripts)
-<br>
+
 <title> ->  Title shown in browser tab
-<br>
+
 <body> ->  Main content of the webpage
-<br>
+
 <h1> ->  Heading
-<br>
+
 <p> ->  Paragraph
-<br>
+
+```
 
 <b>Features of HTML :</b>
 
