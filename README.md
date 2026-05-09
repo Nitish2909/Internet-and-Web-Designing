@@ -213,7 +213,7 @@ Example:
 
 ```
 
-# <br> Tag 
+# br Tag 
 The <br> (Break) tag is used in HTML to insert a line break, meaning the content after it moves to the next line without starting a new paragraph.It is an empty (self-closing) tagBasically it used for start a new line.
 
 Example:
@@ -287,7 +287,7 @@ HTML provides six levels of headings, from <h1> to <h6>.
 ```
 
 # Preformatted Text in HTML :
-Preformatted text in HTML is text that is displayed exactly as written in the code, including spaces, tabs, and line breaks. It is created using the <pre> tag.
+Preformatted text in HTML is text that is displayed exactly as written in the code, including spaces, tabs, and line breaks. It is created using the pre tag.
 
 Syntax:
 
