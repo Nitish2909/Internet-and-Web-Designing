@@ -637,7 +637,58 @@ JavaScript
 
 ```
 
+# Add an Image
+In HTML, images are added to a web page using the img tag. It is used to display pictures, graphics, or icons. The image source is specified using the src attribute, and alternative text is provided using the alt attribute for accessibility.
 
+Syntax:
+
+```bash
+
+<img src="image.jpg" alt="description" width="" height="">
+
+```
+
+Example:
+
+```bash
+<img src="flower.jpg" alt="Flower Image" width="300" height="300">
+
+```
+
+# Background Image
+A background image is used to set an image as the background of a web page or an element. It enhances the visual design of the page. Background images are usually applied using CSS rather than HTML attributes.
+
+syntax:
+
+```bash
+<body style="background-image: url('bg.jpg');">
+
+```
+Example:
+
+```bash
+<body style="background-image: url('bg.jpg');">
+<h1>Welcome</h1>
+</body>
+
+```
+
+# Image Border
+An image border is used to create a line around an image to highlight or separate it from other content. Borders improve the appearance and structure of a webpage and are usually applied using CSS.
+
+syntax:
+
+```bash
+<img src="img.jpg" style="border: 2px solid black;">
+
+```
+
+Example:
+
+```bash
+<img src="flower.jpg" style="border: 3px solid red;">
+
+```
 
 
 
