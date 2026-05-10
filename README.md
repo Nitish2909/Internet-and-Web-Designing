@@ -690,6 +690,82 @@ Example:
 
 ```
 
+# Wrap Text Around an Image
+Wrapping text around an image means placing text beside the image instead of above or below it. This improves layout and makes content more attractive. It is achieved using CSS properties like float.
+
+syntax:
+
+```bash
+<img src="img.jpg" style="float:left;">
+
+```
+
+Example:
+
+```bash
+<img src="flower.jpg" style="float:left; margin-right:10px;">
+<p>This text wraps around the image.</p>
+
+```
+
+# Aligning the Image
+Image alignment controls the position of an image on a webpage, such as left, right, or center. Proper alignment improves design and readability. CSS is commonly used for alignment.
+
+syntax:
+
+```bash
+<img src="img.jpg" style="display:block; margin:auto;">
+
+```
+Example:
+
+```bash
+<img src="flower.jpg" style="display:block; margin:auto;">
+
+```
+
+# Horizontal Rule (hr)
+The hr tag is used to create a horizontal line across the webpage. It is useful for separating sections of content and improving layout. It is an empty tag and can be styled using CSS.
+
+syntax:
+
+```bash
+<hr>
+
+```
+
+Example:
+
+```bash
+<h1>Section 1</h1>
+<hr>
+<h1>Section 2</h1>
+
+```
+
+# Use Images in List
+Images can be used in lists as bullet points instead of default symbols. This improves visual appearance and customization. It is done using CSS list-style-image property.
+
+syntax
+
+```bash
+<ul style="list-style-image: url('icon.png');">
+
+```
+
+Example:
+
+```bash
+
+<ul style="list-style-image: url('icon.png');">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+
+```
+
+# Convert an Image to GIF or JPEG
+Converting an image to GIF or JPEG means changing its file format for compatibility or optimization. JPEG is used for photographs, while GIF supports animation. This is usually done using image editing software or online tools.
 
 
 
