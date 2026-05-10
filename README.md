@@ -251,7 +251,7 @@ Example :
 # Headings in HTML 
 Headings in HTML are used to define titles and subtitles on a web page. They help organize content and make it easy to read.
 
-HTML provides six levels of headings, from <h1> to <h6>.
+HTML provides six levels of headings, from h1 to h6.
 
 <b>Syntax:</b>
 
