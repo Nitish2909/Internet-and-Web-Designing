@@ -1102,6 +1102,100 @@ method -> HTTP method (get or post)
 </html>
 
 ```
+# Putting Graphics on a Web Page:
+Putting graphics on a web page means adding visual elements such as images, icons, or pictures to improve the appearance and understanding of content. Graphics make web pages more attractive and engaging. In HTML, graphics are mainly added using the img tag, which allows images to be displayed from local files or URLs.
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My Web Page</h1>
+<img src="flower.jpg" alt="Flower" width="200">
+
+</body>
+</html>
+
+```
+# Creating Web Page Graphics:
+Creating web page graphics means adding visual elements such as images, icons, shapes, and designs to a webpage to make it more attractive and informative. Graphics improve user experience, help explain content visually, and make the website engaging. They can be created using images, drawing tools, or HTML technologies like SVG and Canvas.
+
+Types of Web Graphics:
+
+```bash
+Images (JPG, PNG, GIF)
+Icons and logos
+Animated graphics (GIFs)
+Vector graphics (SVG)
+Canvas drawings
+
+```
+
+<b>Ways to add graphics in a web page </b>
+
+1. Adding Graphics Using img Tag:
+
+```bash
+<img src="flower.jpg" alt="Flower Image" width="200">
+```
+
+2. Using SVG (Scalable Vector Graphics):
+<br>
+SVG is used to create vector graphics like shapes, circles, and lines directly in HTML.
+
+```bash
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="black" fill="red" />
+</svg>
+
+```
+
+3. Using Canvas
+<br>
+Canvas is used to draw graphics dynamically using JavaScript.
+
+```bash
+<canvas id="myCanvas" width="200" height="100"></canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "blue";
+ctx.fillRect(10,10,100,50);
+</script>
+
+```
+
+# Custom Backgrounds and Colors:
+Custom backgrounds and colors are used to enhance the visual design of a web page. A background can be a color or an image, while text color changes the appearance of content. These are applied using CSS and help make web pages more attractive, readable, and user-friendly.
+
+(a) Background Color:
+
+```bash
+<body style="background-color: yellow;">
+<h1>Welcome</h1>
+</body>
+
+```
+
+(b) Background Image:
+
+```bash
+<body style="background-image: url('bg.jpg');">
+<h1>Welcome</h1>
+</body>
+
+```
+(c) Text Color:
+<br>
+
+```bash
+<p style="color: blue;">This is blue text</p>
+
+```
+
 
 # Creating Animated Graphics
 Creating animated graphics means designing visual elements that move, change, or show motion on a web page. Animations make websites more attractive, interactive, and engaging. They can be created using GIF images, CSS animations, or JavaScript, and are widely used for banners, loaders, and interactive effects.
@@ -1162,7 +1256,17 @@ Example:
 
 ```
 
-3. Using ****<marquee>***Tag (Old Method)
+3. Using marquee Tag (Old Method)
+<br>
+The <marquee> tag creates scrolling text or images.
+
+Example:
+
+```bash
+The <marquee> tag creates scrolling text or images.</marquee>
+
+```
+
 
 
 
