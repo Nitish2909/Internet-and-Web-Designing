@@ -770,6 +770,141 @@ Converting an image to GIF or JPEG means changing its file format for compatibil
 # What is Internet Language?
 Internet language refers to the languages used to create and display content on the web. The most important internet language is HTML (HyperText Markup Language), which structures web pages. Other supporting languages include CSS for styling and JavaScript for interactivity. These languages work together to build websites.
 
+# Understanding HTML
+HTML (HyperText Markup Language) is the standard markup language used to create web pages. It uses tags to structure content such as headings, paragraphs, images, and links. HTML is not a programming language but a markup language that defines the layout and structure of web content.
+
+Basic Structure:
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Hello</h1>
+</body>
+</html>
+
+```
+
+# Create a Web Page
+Creating a web page means designing and developing a document using HTML (HyperText Markup Language) that can be viewed in a web browser. A web page contains text, images, links, and other elements. It forms the basic unit of a website and is used to present information on the internet.
+
+To create a web page, you need A text editor (Notepad, VS Code), A web browser (Chrome, Edge, Firefox) and Basic knowledge of HTML.
+
+Steps to Create a Web Page:
+
+1. Open any text editor like vs code
+
+2. Make a file using .html extenstion in your editor. like index.html
+
+3. Write HTML Code 
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+</head>
+<body>
+
+<h1>Welcome to My Website</h1>
+<p>This is my first web page.</p>
+
+</body>
+</html>
+
+```
+4. Save the File
+
+5. To Open in Browser Right-click on file click on Open with browser to open the web page on Browser.
+
+# linking to other web pages
+Linking to other web pages in HTML means creating hyperlinks that allow users to navigate from one page to another. It is done using the a (anchor) tag. Links are essential for connecting different pages of a website or directing users to external websites. They improve user experience and make websites interactive and easy to explore.
+
+Syntax:
+
+```bash
+<a href="URL">Link Text</a>
+
+
+Here,
+href -> Specifies the destination (URL or file path)
+Link Text -> Clickable text shown on the page
+
+```
+
+Types of Links:
+
+(a) Internal Link: 
+<br>
+This is the first type of linking that is used to like one page to another page within the same website.
+
+Example:
+
+```bash
+<a href="about.html">About Us</a>
+
+```
+(b) External Link :
+<br>
+This is the another type of linking that is used to Links to a different website.
+
+Example:
+
+```bash
+<a href="https://www.google.com">Visit Google</a>
+
+```
+
+<b>Full Example (Complete Web Page)</b>
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link Example</title>
+</head>
+<body>
+
+<h1>Linking Example</h1>
+
+<!-- Internal Link -->
+<p>
+<a href="page2.html">Go to Page 2</a>
+</p>
+
+<!-- External Link -->
+<p>
+<a href="https://www.google.com" target="_blank">
+Visit Google
+</a>
+</p>
+
+<!-- Email Link -->
+<p>
+<a href="mailto:nitish@gmail.com">Send Email</a>
+</p>
+
+<!-- Anchor Link -->
+<p>
+<a href="#bottom">Go to Bottom</a>
+</p>
+
+<br><br><br><br><br>
+
+<h2 id="bottom">Bottom Section</h2>
+<p>This is the bottom of the page.</p>
+
+</body>
+</html>
+
+```
+
+
+
+
 # Email Links
 An email link in HTML is used to allow users to send an email directly by clicking a link on a web page. It uses the mailto: protocol, which opens the default email application with the recipient’s address already filled. Email links are commonly used in contact pages for quick communication.
 
