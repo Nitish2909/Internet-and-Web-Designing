@@ -64,6 +64,177 @@ Airline reservation systems
 
 ```
 
+# URL:
+URL Stands for Uniform Resource Locator.A URL (Uniform Resource Locator) is the complete address used to locate and access a resource available on the internet.It tells a web browser where to find a specific webpage, file, or service and how to access or retrieve it.A URL includes information such as the protocol (like HTTP or HTTPS), the domain name, and the path to the resource. It plays an important role in web browsing by helping users access websites and online content easily and accurately.
+<br>
+In simple words we can say that a URLs is the web address of a website or web page.
+
+Example:
+
+```bash
+
+https://www.example.com/folder/page.html
+
+```
+
+<b>Parts of a URL</b>
+
+1. Protocol (Scheme):
+<br>
+The protocol defines how data is transferred between the browser and the server.some protocols that is used suc as HTTP (HyperText Transfer Protocol), HTTPS (secure version of HTTP), FTP (File Transfer Protocol).
+
+Example:
+
+```bash
+https://
+
+```
+
+2. Domain Name (Host):
+<br>
+The domain name is the name of the website that identifies the server where the resource is located.
+some domain name are google.com, amazon.com, yahoo.com. 
+
+Example:
+
+```bash
+www.example.com
+
+```
+
+3. Path :
+<br>
+The path specifies the exact location of a file or page on the server.
+
+Example:
+
+```bash
+/folder/page.html
+
+```
+
+<b>Types of URL :</b>
+
+1. Absolute URL :
+<br>
+An absolute URL is a complete web address that includes all parts (protocol, domain, and path).
+Examples:
+
+```bash
+
+https://www.google.com
+https://www.amazon.com/products/item1
+
+```
+
+2. Relative URL:
+<br>
+A relative URL is a partial address that depends on the current webpage location.
+Examples:
+
+```bash
+
+/images/logo.png
+about.html
+
+```
+
+# ISP :
+ISP Stands for Internet Service Provider. An ISP (Internet Service Provider) is a company or organization that provides users with access to the internet. It offers services such as internet connectivity, email accounts, web hosting, and domain registration. ISPs use different technologies like fiber optics, DSL, cable, or wireless networks to connect homes, businesses, and institutions to the global internet. Without an ISP, users cannot access websites, send emails, or use online services.
+
+<b>Examples of ISP (Internet Service Provider)</b>
+
+```bash
+
+Some common ISPs that provide internet services are:
+
+Reliance Jio
+Bharti Airtel
+BSNL (Bharat Sanchar Nigam Limited)
+Vodafone Idea
+
+These companies provide internet through mobile data, broadband, and fiber connections.
+
+```
+
+<b>How an ISP Works :</b>
+
+```bash
+Step 1: User Requests Internet Access
+
+When you open a browser and type a website (like google.com), your device sends a request for that website.
+
+Step 2: Request Goes to ISP
+
+Your request is first sent to your ISP through your connection (Wi-Fi, mobile data, or broadband).
+
+Step 3: ISP Connects to Internet Servers
+
+The ISP forwards your request to the global internet. It finds the server where the website is stored.
+
+Step 4: Server Sends Data Back
+
+The website's server processes the request and sends the required data (webpage, images, etc.) back to the ISP.
+
+Step 5: ISP Delivers Data to User
+
+The ISP sends that data back to your device through your connection.
+
+Step 6: Webpage is Displayed
+
+Your browser receives the data and displays the webpage on your screen.
+
+```
+
+# VPN :
+A VPN (Virtual Private Network) is a technology that creates a secure and encrypted connection over the internet. It allows users to send and receive data privately by hiding their real IP address and location. VPNs are commonly used to protect sensitive information, access restricted websites, and maintain privacy while browsing. It acts like a secure tunnel between the user's device and the internet.
+
+<b>Examples of VPN Services :</b>
+
+```bash
+NordVPN
+ExpressVPN
+Proton VPN
+
+```
+
+<b>How VPN Works :</b>
+
+```bash
+Step 1: You Connect to a VPN
+
+You open a VPN app like NordVPN or ExpressVPN and click “Connect.”
+Your device connects to a VPN server located somewhere in the world.
+
+Step 2: Data is Encrypted
+
+Before your data leaves your device, the VPN encrypts (scrambles) it.
+This means no one (hackers, ISP, or attackers) can read your data.
+
+Step 3: Secure Tunnel is Created
+
+The encrypted data travels through a secure “tunnel” over the internet to the VPN server.
+This tunnel protects your information from being intercepted.
+
+Step 4: VPN Server Sends Request
+
+The VPN server decrypts your data and sends your request (like opening a website) to the internet on your behalf.
+
+Step 5: Website Responds to VPN Server
+
+The website sends the requested data back to the VPN server (not directly to you).
+It sees the VPN server's IP address instead of your real IP.
+
+Step 6: Data is Encrypted Again and Sent Back
+
+The VPN server encrypts the data again and sends it back through the secure tunnel to your device.
+
+Step 7: You See the Result
+
+Your VPN decrypts the data and shows the website or content on your screen
+
+```
+
 # HTML 
 HTML Stands for HyperText Mark Language.It was developed by Tim Berners-Lee in 1991 at the CERN research institute in Switzerland. This is an Standard Language used to create and design web pages.It uses tags and attributes to provide structure and format to the webpages.HTML tags are also used for structure the content of web pages like text, images, audio, video, links , forms, tables etc.
 HTML is called Markup Language because it use tags to structure the content of the web pages and tags is also called Markup.
