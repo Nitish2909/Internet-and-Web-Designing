@@ -901,10 +901,6 @@ Visit Google
 </html>
 
 ```
-
-
-
-
 # Email Links
 An email link in HTML is used to allow users to send an email directly by clicking a link on a web page. It uses the mailto: protocol, which opens the default email application with the recipient’s address already filled. Email links are commonly used in contact pages for quick communication.
 
@@ -930,7 +926,7 @@ Simple Example:
 
 ```
 
-Full Working Example:
+<b>Full Working Example:</b>
 
 ```bash
 <!DOCTYPE html>
@@ -973,6 +969,142 @@ Send Email to Multiple People
 </html>
 
 ```
+
+# Table in HTML :
+A table in HTML is used to display data in a structured format of rows and columns. It helps organize information clearly, such as schedules, marksheets, time table and reports. HTML tables are created using the table tag along with tr (table row), th (table header), and td (table data) elements, making data easy to read and understand.
+
+Basic Tags Used in Table:
+
+```bash
+ Tag	            Meaning
+
+<table>         Defines the table
+
+<tr>	        Table row
+
+<th>	      Table header (bold & centered)
+
+<td>	      Table data
+
+```
+
+Syntax:
+
+```bash
+<table>
+  <tr>
+    <th>Heading</th>
+  </tr>
+  <tr>
+    <td>Data</td>
+  </tr>
+</table>
+
+```
+
+Example:
+
+```bash
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Table in HTML</title>
+  </head>
+  <body>
+    <table border="2">
+      <tr>
+        <th>Name</th>
+        <th>Course</th>
+      </tr>
+      <tr>
+        <td>Nitish Kumar</td>
+        <td>BCA</td>
+      </tr>
+      <tr>
+        <td>Rakesh Kumar</td>
+        <td>BCA</td>
+      </tr>
+      <tr>
+        <td>Shivam</td>
+        <td>BCA</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+```
+
+# Form in HTML 
+An HTML form is used to collect input from users through a web page. It allows users to enter data such as name, email, password, and other details, which can then be sent to a server for processing. Forms are widely used for login pages, registration forms, surveys, and feedback systems.
+
+
+Basic Structure of a Form: 
+
+```bash
+
+<form action="server_url" method="post">
+    <!-- form elements -->
+</form>
+
+
+Here,
+action -> URL where data is sent
+method -> HTTP method (get or post)
+
+```
+
+<b>Full Example of HTML Form</b>
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="#" method="post">
+
+<label>Name:</label><br>
+<input type="text" name="name"><br><br>
+
+<label>Email:</label><br>
+<input type="email" name="email"><br><br>
+
+<label>Password:</label><br>
+<input type="password" name="password"><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female<br><br>
+
+<label>Hobbies:</label><br>
+<input type="checkbox"> Reading
+<input type="checkbox"> Sports<br><br>
+
+<label>City:</label><br>
+<select>
+    <option>Delhi</option>
+    <option>Mumbai</option>
+</select><br><br>
+
+<label>Message:</label><br>
+<textarea rows="4" cols="30"></textarea><br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
+
+```
+
+# creating web page graphics :
+
 
 
 
