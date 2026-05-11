@@ -767,6 +767,80 @@ Example:
 # Convert an Image to GIF or JPEG
 Converting an image to GIF or JPEG means changing its file format for compatibility or optimization. JPEG is used for photographs, while GIF supports animation. This is usually done using image editing software or online tools.
 
+# What is Internet Language?
+Internet language refers to the languages used to create and display content on the web. The most important internet language is HTML (HyperText Markup Language), which structures web pages. Other supporting languages include CSS for styling and JavaScript for interactivity. These languages work together to build websites.
+
+# Email Links
+An email link in HTML is used to allow users to send an email directly by clicking a link on a web page. It uses the mailto: protocol, which opens the default email application with the recipient’s address already filled. Email links are commonly used in contact pages for quick communication.
+
+syntax:
+
+```bash
+<a href="mailto:email@example.com">Send Email</a>
+
+```
+
+Simple Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Contact us:</p>
+<a href="mailto:nitish@gmail.com">Send Email</a>
+
+</body>
+</html>
+
+```
+
+Full Working Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Link Example</title>
+</head>
+<body>
+
+<h1>Contact Us</h1>
+
+<!-- Simple Email Link -->
+<p>
+Click here to send email:
+<a href="mailto:nitish@gmail.com">Send Email</a>
+</p>
+
+<!-- Email with Subject -->
+<p>
+<a href="mailto:nitish@gmail.com?subject=Inquiry">
+Send Email with Subject
+</a>
+</p>
+
+<!-- Email with Subject and Body -->
+<p>
+<a href="mailto:nitish@gmail.com?subject=Feedback&body=Hello Nitish, I want to share feedback.">
+Send Email with Subject and Body
+</a>
+</p>
+
+<!-- Multiple Email Recipients -->
+<p>
+<a href="mailto:nitish@gmail.com,abc@gmail.com">
+Send Email to Multiple People
+</a>
+</p>
+
+</body>
+</html>
+
+```
+
+
+
 
 
 
