@@ -1103,7 +1103,66 @@ method -> HTTP method (get or post)
 
 ```
 
-# creating web page graphics :
+# Creating Animated Graphics
+Creating animated graphics means designing visual elements that move, change, or show motion on a web page. Animations make websites more attractive, interactive, and engaging. They can be created using GIF images, CSS animations, or JavaScript, and are widely used for banners, loaders, and interactive effects.
+
+<b>Methods to Create Animated Graphics:</b>
+
+1. Using GIF Images:
+<br>
+GIF (Graphics Interchange Format) is the simplest way to add animation by showing multiple frames in sequence.
+
+Example:
+
+```bash
+<img src="loading.gif" alt="Loading Animation" width="150">
+
+```
+
+2. Using CSS Animation:
+<br>
+CSS animations allow elements to move or change style without JavaScript. They are modern and widely used.
+
+syntax:
+
+```bash
+@keyframes name {
+  from {property: value;}
+  to {property: value;}
+}
+
+```
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: move 3s infinite;
+}
+
+@keyframes move {
+  from {margin-left: 0px;}
+  to {margin-left: 200px;}
+}
+</style>
+</head>
+<body>
+
+<div class="box"></div>
+
+</body>
+</html>
+
+```
+
+3. Using ****<marquee>***Tag (Old Method)
 
 
 
