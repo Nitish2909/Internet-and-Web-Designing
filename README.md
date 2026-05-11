@@ -1,3 +1,69 @@
+# Internet 
+ The Internet is a worldwide system of interconnected computer networks that allows people and devices to communicate, share information, and access services from anywhere in the world. It connects millions of computers using standardized communication protocols like TCP/IP. Through the Internet, users can browse websites, send emails, watch videos, and use online applications. It plays a major role in education, business, entertainment, and communication in modern life.
+
+# Computer Networks:
+A computer network is a system in which two or more computers and devices(like  computers, servers, smartphones, and printers etc.) are connected with each others to the purpose of communicate with each other and share data, resources, information and services. They communicate using wired (like cables) or wireless(like Wi-Fi) connections and can range from small home networks to the global Internet.A computer network allows users to communicate, access files, share hardware such as printers, and use internet services.It plays an important role in modern communication, business operations, education, and entertainment by enabling fast and efficient data exchange.
+
+<b>Types of Computer Networks :</b>
+
+<b>1. PAN</b>
+<br>
+PAN Stands for Personal Area Networks. It is one of the Smallest and basic type of network that connects devices in a short range typically within a range of 10 meters.Most PANs are wireless, using technologies like Bluetooth, Infrared, or Wi-Fi Direct, although wired PANs can also be established using USB cables. These networks are common in everyday life due to their ease of use and minimal setup requirements.
+
+Example:
+
+```bash
+Bluetooth connection between mobile and earphones.
+
+Connecting laptop with wireless mouse.
+
+Smartwatch connected to phone.
+
+```
+
+<b>2. LAN </b>
+<br>
+LAN Stands for Local Area Networks.A Local Area Network (LAN) connects computers within a limited area like a room, office, school, or building. It is fast and commonly used for sharing files and printers.
+
+Example:
+
+```bash
+Computer lab in a college.
+
+Office network connecting employees systems.
+
+Home Wi-Fi network.
+
+```
+<b>3. MAN </b>
+<br>
+MAN Stands for Metropolitan Area Networks. A Metropolitan Area Network (MAN) covers a larger area than LAN, usually a city or town. It connects multiple LANs together.
+
+Example:
+
+```bash
+City-wide internet services.
+
+Cable TV network in a city.
+
+Government network connecting different offices in a city.
+
+```
+<b>4. WAN </b>
+<br>
+WAN Stands for Wide Area Network.A Wide Area Network (WAN) connects computers over a very large geographical area, such as countries or continents. It is slower than LAN but supports long-distance communication.
+
+Example:
+
+```bash
+The Internet (largest WAN).
+
+Bank networks connecting branches worldwide.
+
+Airline reservation systems
+
+```
+
 # HTML 
 HTML Stands for HyperText Mark Language.It was developed by Tim Berners-Lee in 1991 at the CERN research institute in Switzerland. This is an Standard Language used to create and design web pages.It uses tags and attributes to provide structure and format to the webpages.HTML tags are also used for structure the content of web pages like text, images, audio, video, links , forms, tables etc.
 HTML is called Markup Language because it use tags to structure the content of the web pages and tags is also called Markup.
