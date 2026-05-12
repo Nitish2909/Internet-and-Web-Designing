@@ -203,7 +203,7 @@ Proton VPN
 ```bash
 Step 1: You Connect to a VPN
 
-You open a VPN app like NordVPN or ExpressVPN and click “Connect.”
+You open a VPN app like NordVPN or ExpressVPN and click "Connect".
 Your device connects to a VPN server located somewhere in the world.
 
 Step 2: Data is Encrypted
