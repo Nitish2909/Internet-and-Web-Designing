@@ -2206,7 +2206,7 @@ Example:
 if (true) {
   let a = 5;
   const b = 10;
-  console.log(a, b); // works
+  console.log(a, b); // it works
 }
 
 // console.log(a); // it give an errors
