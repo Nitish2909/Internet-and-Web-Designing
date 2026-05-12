@@ -2082,9 +2082,136 @@ let Name = "Shyam"; // different variable
 
 7. variable name Should Be Meaningful.
 
+# Declaring the variable
+Declaring a variable in JavaScript means creating a variable by giving it a name so it can store data. It tells the JavaScript engine that a variable exists and may hold a value. Variables can be declared using the keywords var, let, or const. Declaration can be done with or without assigning a value, depending on the keyword. This is a basic and essential step in writing any JavaScript program.
 
+<b>Syntax of Declaring Variable :</b>
 
+```bash
 
+keyword variableName;
+
+// nitialization
+keyword variableName = value;
+
+```
+
+Example:
+
+```bash
+let age;
+age = 20;
+
+```
+
+<b>Full Example:</b>
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+  let name = "Nitish";
+  alert(name);
+</script>
+
+</body>
+</html>
+
+```
+
+# assign a value to a variable
+Assigning a value to a variable means giving a variable some data so it can be used in a program. After declaring a variable, we use the assignment operator (=) to store a value like a number, text, or boolean inside it. This allows the variable to hold and represent data that can be changed, displayed, or used in calculations. Assignment is a basic and essential step in programming.
+
+syntax :
+
+```bash
+variableName = value;
+
+//with declaration
+let variableName = value;
+
+```
+
+Example:
+
+```bash
+
+// Assign value after declaration
+
+let x;
+x = 10;
+
+```
+
+<b>Full Example</b>
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+  let message;
+  message = "Hello World";
+
+  alert(message);
+</script>
+
+</body>
+</html>
+
+```
+
+# scope of variable 
+Scope of a variable refers to the area or region of a program where a variable can be accessed or used. It defines the visibility and lifetime of a variable in JavaScript. Depending on how and where a variable is declared, it may be available throughout the program or only within a specific block or function. Understanding scope is important to avoid errors and manage variables properly in a program.
+
+<b>Types of Scope in JavaScript :</b>
+
+<b>1. Global Scope :</b> -> A variable declared outside any function or block is called a global variable. It can be accessed from anywhere in the program.
+
+Example:
+
+```bash
+let name = "Nitish"; // global
+
+function show() {
+  console.log(name); // accessible
+}
+show();
+
+```
+
+<b>2. Local Scope (Function Scope) :</b> -> A variable declared inside a function is called a local variable. It can only be accessed within that function.
+
+Example:
+
+```bash
+function test() {
+  let x = 10;
+  console.log(x); // works here
+}
+test();
+
+// console.log(x); // you cannot do that
+
+```
+
+<b>3. Block Scope :</b> -> A variable declared inside a block { } using let or const is accessible only within that block.
+
+Example:
+
+```bash
+if (true) {
+  let a = 5;
+  const b = 10;
+  console.log(a, b); // works
+}
+
+// console.log(a); // it give an errors
+
+```
 
 
 
