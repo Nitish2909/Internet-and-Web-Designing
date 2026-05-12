@@ -1987,6 +1987,104 @@ function changeText() {
 
 ```
 
+# Variables in JavaScript :
+ A variable in JavaScript is a container used to store data values that can be used and modified later in a program. It allows developers to store information such as numbers, text, or objects and reuse them whenever needed. Variables make programs flexible and dynamic because their values can change during execution. They are an essential part of programming and help in performing calculations, storing user input, and controlling application behavior.
+
+ <b>Types of variable in JavaScript :</b>
+
+ <b>1. var  </b>
+
+ var is a keyword in JavaScript used to declare variables. It was the original way to create variables before modern keywords like let and const were introduced.Variables declared with var are function-scoped, meaning they are accessible throughout the function in which they are defined. They can be re-declared and updated, which sometimes leads to errors, so var is less preferred in modern JavaScript.
+
+ syntax:
+
+ ```bash
+ var variableName = value;
+
+ ```
+
+ Example:
+
+ ```bash
+ var name = "Nitish";
+
+ ```
+
+ <b>2. let </b>
+
+ let is a keyword in JavaScript used to declare variables with block scope, meaning the variable is only accessible inside the block { } where it is defined. It was introduced in ES6 (modern JavaScript) to solve problems of var. Variables declared with let can be updated but cannot be re-declared in the same scope, making code safer, cleaner, and easier to maintain.
+
+ Syntax:
+
+ ```bash
+ let variableName = value;
+
+ ```
+
+ Example:
+
+ ```bash
+ let age = 20;
+
+ ```
+
+ <b>3. const</b>
+
+ const is a keyword in JavaScript used to declare constant variables, meaning their value cannot be changed after assignment. It is block-scoped, just like let, and must be initialized at the time of declaration. const helps make code more predictable and safe by preventing accidental changes. It is commonly used for fixed values such as configuration settings, mathematical constants, or references that should not be reassigned.
+
+ syntax:
+
+```bash
+
+const variableName = value;
+
+```
+
+Example:
+
+```bash
+const pi = 3.14;
+
+```
+
+# Rules for variable names:
+
+1. Names can contain letters, digits, underscores, and dollar signs.
+
+2. Names must begin with a letter, underscores, and $.
+
+```bash
+let name = "Ram";   //  valid
+let _age = 20;      //  valid
+let $price = 100;   //  valid
+let 1value = 10;    //  invalid
+
+```
+
+3. Cannot Use Spaces in variable names
+
+```bash
+let firstName = "Ram";   //  valid
+let first name = "Ram";  //  invalid
+
+```
+4.Names are case sensitive (name and Name are different variables).
+
+```bash
+let name = "Ram";
+let Name = "Shyam"; // different variable
+
+```
+
+5. Cannot Use Reserved Keywords (like var, let, const, if, els).
+
+6. Use Camel Case
+
+7. variable name Should Be Meaningful.
+
+
+
+
 
 
 
