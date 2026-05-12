@@ -1504,6 +1504,376 @@ The <marquee> tag creates scrolling text or images.</marquee>
 
 ```
 
+# Cascading Style Sheets (CSS):
+Cascading Style Sheets (CSS) is a stylesheet language used to control the presentation and design of web pages written in HTML. It allows developers to apply styles such as colors, fonts, spacing, layouts, and animations to web content. CSS separates the content (HTML) from its design, making websites more attractive, flexible, and easy to maintain. With CSS, the same design can be applied to multiple web pages efficiently.
+
+<b>Types of CSS </b>
+
+<b>1. Inline CSS  :</b> nline CSS is applied directly inside an HTML tag using the style attribute. It affects only that specific element.
+
+```bash
+<p style="color: red;">This is red text</p>
+
+```
+
+<b>2. Internal CSS :</b> Internal CSS is written inside a style tag within the head section of an HTML page. It is used for styling a single webpage.
+
+Example:
+
+```bash
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Example</title>
+
+    <style>
+      p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>This is a paragraph</p>
+  </body>
+</html>
+
+```
+
+<b>3. External CSS :</b> External CSS is written in a separate .css file and linked to HTML. It is the best method for styling multiple pages.
+
+Example:
+<br>
+filename : index.html
+
+```bash
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <title>External CSS</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <h1>My First Web Page</h1>
+ </body>
+ </html>
+
+ ```
+ filename: style.css
+
+ ```bash
+
+ h1{
+  color:blue
+ }
+
+ ```
+
+ # Defining style with HTML tags
+ Defining style with HTML tags means applying CSS rules directly to HTML elements (tags) such as p, h1, div etc., to control their appearance. This can be done using different methods like inline CSS, internal CSS, or external CSS. By targeting HTML tags, we can change colors, fonts, spacing, alignment, and layout. It helps make web pages visually attractive and consistent while keeping the structure (HTML) separate from the design (CSS).
+
+ <b>Ways to Define Style with HTML Tags :</b>
+
+ <b>1. Using Tag Selectors (Element Selectors)</b> -> In this method, we directly apply styles to HTML tags.
+
+ Example:
+
+ ```bash
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Example</title>
+
+    <style>
+      p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>This is a paragraph</p>
+  </body>
+</html>
+
+```
+
+<b>2. Inline Styling with HTML Tags :</b> -> Style is written inside the HTML tag using the style attribute.
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inline CSS</title>
+</head>
+<body>
+    <h1 style="color:red;">Simple Web Page</h1>
+</body>
+</html>
+
+```
+<b>3. Internal CSS :</b> -> CSS is written inside style in the head section.
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1 {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+<h1>This is heading</h1>
+
+</body>
+</html>
+
+```
+
+<b>4. External CSS (Using HTML Link Tag) :</b> Styles are written in a separate file and linked using link tag.
+
+Example:
+<br>
+filename : index.html
+
+```bash
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <title>External CSS</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <h1>My First Web Page</h1>
+ </body>
+ </html>
+
+ ```
+ filename: style.css
+
+ ```bash
+
+ h1{
+  color:blue
+ }
+
+ ```
+
+ # Features of CSS
+
+ ```bash
+
+1. Separation of content and design
+
+2. Faster page loading
+
+3. Reusability of styles
+
+4. Responsive design support
+
+5. Precise control over layout and styling
+
+6. Easy maintenance and updates
+
+```
+# Style Properties in CSS
+Style properties in CSS are the attributes used to control the appearance and layout of HTML elements on a web page. Each property defines a specific aspect of styling, such as color, size, spacing, alignment, or background. These properties are written with values inside CSS rules and applied to HTML elements using selectors. By combining different style properties, developers can design attractive, readable, and responsive web pages.
+
+<b>Basic Syntax of Style Properties :</b>
+
+```bash
+selector {
+  property: value;
+}
+
+```
+
+Example:
+
+```bash
+p {
+  color: blue;
+  font-size: 18px;
+}
+
+```
+
+<b>Common Style Properties :</b>
+
+<b>1. Color Properties :</b> 
+color -> text color
+<br>
+background-color -> background color
+
+```bash
+p {
+  color: red;
+  background-color: yellow;
+}
+```
+<b>2. Font Properties</b>
+
+font-size -> size of text
+
+font-family -> type of font
+
+font-weight -> boldness
+
+Example:
+
+```bash
+h1 {
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+```
+
+<b>3. Text Properties :</b>
+
+text-align -> alignment (left, center, right)
+
+text-decoration -> underline, none
+
+text-transform -> uppercase, lowercase
+
+Example:
+
+```bash
+p {
+  text-align: center;
+  text-decoration: underline;
+}
+
+```
+
+<b>4. Box Model Properties :</b>
+
+margin -> outer space
+
+padding -> inner space
+
+border -> border around element
+
+Example:
+
+```bash
+div {
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+```
+
+<b>Full Complete Example:</b>
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Properties Example</title>
+  <style>
+    body {
+      background-color: lightgray;
+      font-family: Arial;
+    }
+
+    h1 {
+      color: darkblue;
+      text-align: center;
+    }
+
+    p {
+      color: green;
+      font-size: 18px;
+      margin: 10px;
+    }
+
+    .box {
+      border: 2px solid black;
+      padding: 20px;
+      background-color: white;
+    }
+
+    .btn {
+      background-color: blue;
+      color: white;
+      padding: 10px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>CSS Style Properties</h1>
+
+<div class="box">
+  <p>This box uses margin, padding, and border properties.</p>
+</div>
+
+<button class="btn">Click Me</button>
+
+</body>
+</html>
+
+```
+
+# Style Classes (CSS Classes) :
+A style class in CSS is a reusable styling rule that can be applied to one or more HTML elements. It helps in grouping elements and applying the same design to them without repeating code. Classes are defined using a dot (.) followed by a class name in CSS, and used in HTML with the class attribute. This makes styling flexible, organized, and easy to maintain across web pages.
+
+<b>Syntax of Style Class :</b>
+
+```bash
+.className {
+  property: value;
+}
+
+```
+
+Example:
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .redText {
+      color: red;
+    }
+
+    .box {
+      border: 2px solid black;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<p class="redText">This text is red.</p>
+
+<div class="box">
+  This is a styled box.
+</div>
+
+</body>
+</html>
+
+```
+
+# JavaScript :
+
+
+
+
+
+
 
 
 
