@@ -1868,8 +1868,124 @@ Example:
 ```
 
 # JavaScript :
+JavaScript is a scripting language that is used to create dynamic and interactive web pages. It is a high-level, interpreted, and object-oriented programming language used to make web pages interactive and dynamic.It is mainly used in web development to control the behavior of websites.It works together with HTML (structure) and CSS (design) to create complete websites. With JavaScript, you can handle user actions like clicks, validate forms, update content without reloading the page, and create animations. It runs directly in the browser, making it essential for modern web development.
 
+In Simple word we can say that JavaScript is one of the most important programming languages for web development. It helps in creating interactive, responsive, and user-friendly websites.
 
+<b>Features of JavaScript :</b>
+
+```bash
+1. Lightweight and fast
+
+2. Runs in all web browsers
+
+3. Supports dynamic content
+
+4. Event-based programming (click, hover, etc.)
+
+5. Easy to integrate with HTML & CSS
+
+```
+
+<b>Writing First JavaScript Program:</b>
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+  <title>First JavaScript</title>
+</head>
+<body>
+
+<h1>My First JavaScript</h1>
+
+<script>
+  alert("Hello, Welcome to JavaScript!");
+</script>
+
+</body>
+</html>
+
+```
+
+<b>There are Three way to use JavaScript in HTML :</b>
+
+<b>1. inline JavaScript :</b> -> Inline JavaScript is a method of writing JavaScript code directly inside an HTML element using attributes such as onclick, onmouseover, etc.
+
+Exmple:
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Inline JavaScript Example</h2>
+
+<button onclick="alert('Welcome!')">Click Me</button>
+
+</body>
+</html>
+
+```
+
+<b>2. Internal JavaScript :</b> -> Internal JavaScript is written inside the script tag within an HTML file. It is useful when JavaScript code is small and specific to a single page.
+
+Example:
+
+```bash
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Internal JS</title>
+</head>
+<body>
+
+<h2>Internal JavaScript Example</h2>
+
+<script>
+  document.write("This is internal JavaScript");
+</script>
+
+</body>
+</html>
+
+```
+
+<b>3. External JavaScript :</b>
+<br>
+External JavaScript means writing JavaScript code in a separate file with .js extension and linking it to an HTML document. This approach is widely used because it improves code reusability, keeps HTML clean, and makes maintenance easier. Multiple web pages can use the same JavaScript file, reducing repetition and improving performance.
+
+Example:
+
+filename : index.html 
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+  <title>External JS Example</title>
+</head>
+<body>
+
+<h1 id="demo">Welcome</h1>
+
+<button onclick="changeText()">Click Me</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+```
+
+filename : script.js 
+
+```bash
+function changeText() {
+  document.getElementById("demo").innerHTML = "Text Changed!";
+}
+
+```
 
 
 
