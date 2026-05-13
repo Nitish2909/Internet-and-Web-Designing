@@ -1,6 +1,27 @@
 # Internet 
  The Internet is a worldwide system of interconnected computer networks that allows people and devices to communicate, share information, and access services from anywhere in the world. It connects millions of computers using standardized communication protocols like TCP/IP. Through the Internet, users can browse websites, send emails, watch videos, and use online applications. It plays a major role in education, business, entertainment, and communication in modern life.
 
+ <b>Application of Internet </b>
+
+ ```bash
+ 1. communication
+
+ 2. education
+
+ 3. E-Commerce
+
+ 4. entertainment
+
+ 5. Online Banking and Finance
+
+ 6. Social Networking
+
+ 7. Information and Research
+
+ 8. Online Services
+
+ ```
+
 # Computer Networks:
 A computer network is a system in which two or more computers and devices(like  computers, servers, smartphones, and printers etc.) are connected with each others to the purpose of communicate with each other and share data, resources, information and services. They communicate using wired (like cables) or wireless(like Wi-Fi) connections and can range from small home networks to the global Internet.A computer network allows users to communicate, access files, share hardware such as printers, and use internet services.It plays an important role in modern communication, business operations, education, and entertainment by enabling fast and efficient data exchange.
 
