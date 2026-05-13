@@ -160,6 +160,24 @@ about.html
 
 ```
 
+# Intranet 
+An Intranet is a private computer network used within an organization such as a company, school, or government office. It uses internet technologies like web browsers, websites, and TCP/IP protocols but is accessible only to authorized users. An intranet helps in sharing information, files, and resources securely among employees or members. It improves communication, collaboration, and efficiency within the organization while keeping data protected from outside users.
+
+<b>Features of intranet</b>
+
+```bash
+Private and secure network
+Accessible only to authorized users
+Uses internet technologies (like web pages and browsers)
+Supports internal communication and collaboration
+Helps in data sharing and management
+
+```
+
+# Extranet :
+An Extranet is a private network that allows controlled access to external users such as customers, suppliers, partners, or clients. It is an extension of an intranet, where certain internal resources of an organization are shared securely with outsiders. Extranets use internet technologies but include security features like login credentials and encryption to protect data while enabling collaboration and communication with trusted external users.
+
+
 # ISP :
 ISP Stands for Internet Service Provider. An ISP (Internet Service Provider) is a company or organization that provides users with access to the internet. It offers services such as internet connectivity, email accounts, web hosting, and domain registration. ISPs use different technologies like fiber optics, DSL, cable, or wireless networks to connect homes, businesses, and institutions to the global internet. Without an ISP, users cannot access websites, send emails, or use online services.
 
